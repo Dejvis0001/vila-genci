@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,62 +16,51 @@
     <!--My CSS-->
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-
 <body>
-    <header class="header">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg header-nav fixed-top">
-            <!-- Container -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-center">
             <div class="container">
-                <!-- Brand Logo -->
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo1" src="assets/icon/logo-black.png" alt="logo" width="100px">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/icon/logo.png" height="70px">
                 </a>
-                <!-- Navbar Toggler -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav"
+                    aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- Navbar Collapse -->
-                <div class="collapse navbar-collapse text-center justify-content-between" id="navbarSupportedContent">
-                    <!-- Navbar Links -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Navigation Items -->
+                <div class="collapse navbar-collapse " id="collapseNav">
+                    <ul class="navbar-nav nav-underline ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a href="index.html" class="nav-link">Home</a>
                             <div class="underline"></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="rooms.html">Rooms</a>
+                            <a href="rooms.html" class="nav-link">Rooms</a>
                             <div class="underline"></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
+                            <a href="gallery.html" class="nav-link">Gallery</a>
                             <div class="underline"></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
+                            <a href="about.html" class="nav-link">About Us</a>
                             <div class="underline"></div>
                         </li>
                         <li class="nav-item active-link">
-                            <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                            <a href="contact.html" class="nav-link">Contact</a>
                             <div class="underline"></div>
                         </li>
-                        <!-- Flags -->
                         <li class="nav-item">
-                            <a class="nav-link" href="contact-sq.html"><img src="assets/icon/ALB.png" alt="ALB Flag"
-                                    height=20></a>
+                            <a href="contact-sq.html" class="nav-link"><img src="assets/icon/ALB.png" width="23px"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><img src="assets/icon/GBR.png" alt="GBR Flag"
-                                    height=20></a>
+                            <a href="contact.html" class="nav-link"><img src="assets/icon/GBR.png" width="23px"></a>
                         </li>
-                        <!-- Book Now Button -->
-                        <a style="text-decoration: none;" href="contact.html">
-                            <button>bbb</button>
-                        </a>
                     </ul>
+                    <button style="margin-right: 10px;"> <a
+                            href="https://panel.bookerspro.com/booking2.php?propid=133583"
+                            class="awe-btn awe-btn-13">BOOK NOW
+                        </a>
+                    </button>
                 </div>
             </div>
         </nav>
@@ -142,7 +130,7 @@
                             <div class="footer-widget mb-4">
                                 <h2 class="heading-2 logo" id="footer-logo">
                                     <a class="navbar-brand" href="index.html">
-                                        <img src="assets/icon/logo-white.png" width="75px">
+                                        <img src="assets/icon/logo-white.png" width="70px">
                                     </a>
                                 </h2>
                                 <p>Welcome to Vila Genci, your seaside oasis in Ksamil! Enjoy stunning sea views, cozy
@@ -207,5 +195,4 @@
     <!--My Script-->
     <script src="main.js"></script>
 </body>
-
 </html>
